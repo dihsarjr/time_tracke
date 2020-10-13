@@ -43,6 +43,9 @@ class MyHomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
             child: RaisedButton(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              ),
               color: Colors.white,
               onPressed: () {},
               child: Container(
@@ -66,6 +69,9 @@ class MyHomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
             child: RaisedButton(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              ),
               color: Colors.blue,
               onPressed: () {},
               child: Container(
@@ -92,6 +98,9 @@ class MyHomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
             child: RaisedButton(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              ),
               color: Colors.greenAccent,
               onPressed: () {},
               child: Container(
@@ -112,6 +121,9 @@ class MyHomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
             child: RaisedButton(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              ),
               color: Colors.yellow[100],
               onPressed: () {},
               child: Container(
