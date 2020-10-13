@@ -40,26 +40,88 @@ class MyHomePage extends StatelessWidget {
           SizedBox(
             height: 15,
           ),
-          Container(
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 7),
-            color: Colors.black26,
-            height: 50,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
+            child: RaisedButton(
+              color: Colors.white,
+              onPressed: () {},
+              child: Container(
+                height: 55,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.network(
+                      'https://lh3.googleusercontent.com/proxy/2BgI0A6LDj1q7r7UK8jZBc-AWd_4CHijzUnMLqAIfwgqLlhe8tIV9l1-y89DmxUVl6Cve0epQNFcz00btZaKEMers2s45Xaw-YWmtQGN_jaot_0YpVY',
+                      height: 20,
+                    ),
+                    SizedBox(
+                      width: 15,
+                    ),
+                    Text("Signin with Google")
+                  ],
+                ),
+              ),
+            ),
           ),
-          Container(
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 7),
-            color: Colors.black26,
-            height: 50,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
+            child: RaisedButton(
+              color: Colors.blue,
+              onPressed: () {},
+              child: Container(
+                height: 55,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.network(
+                      'https://cdn.iconscout.com/icon/free/png-512/facebook-logo-2019-1597680-1350125.png',
+                      height: 20,
+                    ),
+                    SizedBox(
+                      width: 15,
+                    ),
+                    Text(
+                      "Signin with FaceBook",
+                      style: TextStyle(color: Colors.white),
+                    )
+                  ],
+                ),
+              ),
+            ),
           ),
-          Container(
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 7),
-            color: Colors.black26,
-            height: 50,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
+            child: RaisedButton(
+              color: Colors.greenAccent,
+              onPressed: () {},
+              child: Container(
+                height: 55,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "Signin with Emai and Password",
+                      style: TextStyle(color: Colors.white),
+                    )
+                  ],
+                ),
+              ),
+            ),
           ),
           Text("or"),
-          Container(
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            color: Colors.black26,
-            height: 50,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 7),
+            child: RaisedButton(
+              color: Colors.yellow[100],
+              onPressed: () {},
+              child: Container(
+                height: 55,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [Text("Go anonymous")],
+                ),
+              ),
+            ),
           ),
         ],
       ),
